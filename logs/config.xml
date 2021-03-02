@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns="http://logging.apache.org/log4php/">
+
+   <appender name="default" class="LoggerAppenderFile">
+
+      <!-- <layout class="LoggerLayoutSimple" />-->
+
+       <param name="file" value="my.log" />
+
+       <param name="append" value="false" />
+
+       <layout class="LoggerLayoutPattern">
+           <param name="conversionPattern" value="%date{l jS \of F Y h:i:s A} %logger %-5level %msg%n %M" />
+       </layout>
+
+
+     
+
+   </appender>
+
+   <root>
+          <level value="info" />
+       <appender_ref ref="default" />
+
+   </root>
+
+</configuration>
