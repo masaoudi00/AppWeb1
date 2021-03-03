@@ -3,3 +3,6 @@
 
 #ignorar los ficheros txt
 *.txt
+
+#ignorar php
+/ajax
