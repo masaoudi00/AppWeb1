@@ -5,4 +5,4 @@
 *.txt
 
 #ignorar php
-/ajax
+ajax/
