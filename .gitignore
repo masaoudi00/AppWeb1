@@ -1,2 +1,5 @@
 #ignoramos todos los ficheroes de log
 *.log
+
+#ignorar los ficheros txt
+*.txt
