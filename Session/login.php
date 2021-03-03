@@ -33,5 +33,5 @@ if(isset($_GET['cerrar'])){
 
 ?>
 
-
+<!--Una prueba-->
 <?php include './includes/footer.php';?>
