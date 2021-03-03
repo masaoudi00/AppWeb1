@@ -4,5 +4,5 @@
 #ignorar los ficheros txt
 *.txt
 
-#ignorar php
+#ignorar ficheros  php
 *.php
